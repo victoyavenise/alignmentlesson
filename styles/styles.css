@@ -1,0 +1,49 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container1 {
+    display: flex;
+    background-color: aquamarine;
+    padding: 40px;
+    margin: 10px;
+    border: 4px solid plum;
+    justify-content: space-between;
+}
+
+.items {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.container2 {
+    flex-direction: column;
+    background-color: rgb(255, 127, 227);
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid rgb(86, 1, 255);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    
+    
+
+}
+.items2 {
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    align-content: center;
+    
+}
